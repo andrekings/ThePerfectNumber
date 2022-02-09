@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePerfectNumber.API", "ThePerfectNumber.API\ThePerfectNumber.API.csproj", "{4B604EBE-EDDD-4CF0-B1BE-A512FB4B30F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{FAD5E36A-74BD-4BA1-884E-100EDADE7BEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{8ADA5929-57E5-43F7-BD1F-F7BA9D19764D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePerfectNumber.Domain", "ThePerfectNumber.Domain\ThePerfectNumber.Domain.csproj", "{56F76837-7B3C-432D-95CB-50AAE6B3C0A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{3CA1C2AC-C570-47F3-9BCD-27A048B20C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePerfectNumber.Service", "ThePerfectNumber.Service\ThePerfectNumber.Service.csproj", "{D2B5AD2F-0BF9-49A5-B5F3-9101EFFF3A16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{703C1AEC-838C-481D-8A3F-CDEA0DFE5906}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Calculator", "4.1 - Calculator", "{F303FA9F-453F-48C7-A0F4-F64F95386880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePerfectNumber.Calculator", "ThePerfectNumber.Calculator\ThePerfectNumber.Calculator.csproj", "{B0DB301A-C439-453B-AEFC-FEA8385D9BAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B604EBE-EDDD-4CF0-B1BE-A512FB4B30F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B604EBE-EDDD-4CF0-B1BE-A512FB4B30F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B604EBE-EDDD-4CF0-B1BE-A512FB4B30F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B604EBE-EDDD-4CF0-B1BE-A512FB4B30F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F76837-7B3C-432D-95CB-50AAE6B3C0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F76837-7B3C-432D-95CB-50AAE6B3C0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F76837-7B3C-432D-95CB-50AAE6B3C0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F76837-7B3C-432D-95CB-50AAE6B3C0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B5AD2F-0BF9-49A5-B5F3-9101EFFF3A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B5AD2F-0BF9-49A5-B5F3-9101EFFF3A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B5AD2F-0BF9-49A5-B5F3-9101EFFF3A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B5AD2F-0BF9-49A5-B5F3-9101EFFF3A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DB301A-C439-453B-AEFC-FEA8385D9BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DB301A-C439-453B-AEFC-FEA8385D9BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DB301A-C439-453B-AEFC-FEA8385D9BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DB301A-C439-453B-AEFC-FEA8385D9BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B604EBE-EDDD-4CF0-B1BE-A512FB4B30F0} = {FAD5E36A-74BD-4BA1-884E-100EDADE7BEB}
+		{56F76837-7B3C-432D-95CB-50AAE6B3C0A0} = {8ADA5929-57E5-43F7-BD1F-F7BA9D19764D}
+		{D2B5AD2F-0BF9-49A5-B5F3-9101EFFF3A16} = {3CA1C2AC-C570-47F3-9BCD-27A048B20C8A}
+		{F303FA9F-453F-48C7-A0F4-F64F95386880} = {703C1AEC-838C-481D-8A3F-CDEA0DFE5906}
+		{B0DB301A-C439-453B-AEFC-FEA8385D9BAF} = {F303FA9F-453F-48C7-A0F4-F64F95386880}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48555382-C61E-4E9D-89B6-6BEDD670B2CD}
+	EndGlobalSection
+EndGlobal

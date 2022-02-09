@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.6.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.6.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThePerfectNumber.Calculator\ThePerfectNumber.Calculator.csproj" />
+    <ProjectReference Include="..\ThePerfectNumber.Domain\ThePerfectNumber.Domain.csproj" />
+    <ProjectReference Include="..\ThePerfectNumber.Service\ThePerfectNumber.Service.csproj" />
+  </ItemGroup>
+
+</Project>
